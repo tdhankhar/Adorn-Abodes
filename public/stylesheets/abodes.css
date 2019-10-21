@@ -1,0 +1,315 @@
+#mainNavbar .navbar-brand .navLogo{
+    height: 50px;
+}
+.scrolled{ 
+	background:white;
+	border-bottom: 1px solid rgb(252, 193, 151);
+	transition: background 500ms;
+}
+#mainNavbar .navbar-brand{
+	color:white;
+}
+#mainNavbar .navbar-brand .navTitle{
+    font-size: 1.5rem;
+    padding-left: 15px;
+}
+#mainNavbar .navbar-toggler i{
+    color: gray;
+}
+.navElements{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#mainNavbar .navbar-nav .nav-link{
+	color:white;
+    margin-left: 33px;
+    display:inline-block;
+    text-align: center;
+}
+#mainNavbar .navbar-nav .nav-link span{
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+#mainNavbar .navbar-nav .nav-link:hover{
+    color: rgb(219, 219, 219);
+}
+.scrolled .navbar-nav .nav-link span{
+	color:black;
+}
+.scrolled .navbar-nav .nav-link span:hover{
+	color: rgb(252, 193, 151);
+}
+.scrolled .navbar-brand .navTitle{
+	color: black;
+}
+#home-page{
+    background-image: url("/images/html/bgm.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 1px solid rgb(252, 193, 151);
+}
+#home-content{
+    padding:150px 0 200px 0; 
+}
+#home-content .row{
+    padding-top: 150px;
+    padding-left: 30px;
+	text-shadow: 3px 3px gray;
+    color:white;
+    text-align: center;
+}
+#home-content .row .home-tagline{
+    letter-spacing: 10px;
+}
+#go-to-about{
+    padding-top:100px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+#go-to-about .about-link{
+	color: rgb(140, 140, 140);
+    letter-spacing: 5px;
+    display:inline-block;
+    text-align: center;
+}
+#services{
+    padding:100px 100px 50px 100px;
+}
+#services .what-heading{
+    padding:30px;
+}
+#services .what-heading h5{
+    text-align: center;
+    letter-spacing:5px;
+    font-weight: 400;
+}
+#services .what-heading hr{
+    background-color: rgb(252, 193, 151);
+}
+#services #what-we-do .what-item .polaroid{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 20px
+}
+#services #what-we-do .what-item .polaroid .container{
+    text-align: center;
+    padding: 20px;
+}
+#services #what-we-do .what-item .polaroid img{
+    opacity: 0.3;
+    height: 100%;
+    transition: .25s ease;
+}
+#services #what-we-do .what-item .polaroid img:hover {
+    opacity: 1;
+}
+#services #how-heading{
+    padding-bottom:30px;
+    padding-top: 50px;
+}
+#services #how-heading #heading{
+    text-align: center;
+    letter-spacing:5px;
+    font-weight: 400;
+}
+#services #how-heading hr{
+    background-color: rgb(252, 193, 151);
+}
+#services .nav-tabs{
+    border-color: rgb(252, 193, 151);
+}
+#services .nav-tabs .nav-link{
+    color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+    letter-spacing: 2px;
+}
+#services .nav-tabs .active{
+    color: rgb(252, 193, 151);
+    border-top-color: rgb(252, 193, 151);
+    border-left-color: rgb(252, 193, 151);
+    border-right-color: rgb(252, 193, 151);
+}
+#services .nav-tabs .nav-link:hover{
+    color: rgb(252, 193, 151);
+    border: none;
+}
+#services .nav-tabs .active:hover{
+    border-top-color: rgb(252, 193, 151);
+    border-left-color: rgb(252, 193, 151);
+    border-right-color: rgb(252, 193, 151);
+}
+#myTabContent{
+    padding-top:100px;
+}
+#myTabContent .tab-pane .row .side-icon{
+    color:rgb(252, 193, 151);
+    text-align:center;
+    font-size: 24px;
+}
+#myTabContent .tab-pane .row .side-para{
+    font-size: 1.25rem;
+    padding:30px;
+    text-align:center;
+    line-height: 2;
+}
+#team-heading{
+    padding-top:120px;
+    padding-bottom:20px;
+}
+#team-heading .heading{
+    text-align: center;
+    letter-spacing:5px;
+    font-weight: 400;
+}
+#team-heading hr{
+    background-color: rgb(252, 193, 151);
+}
+#team{
+    margin-top:30px;
+    margin-bottom:30px;
+    padding-top:30px;
+    padding-bottom: 30px;
+    background: #fcc197; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #98ccfd, #fcc197); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #98ccfd, #fcc197); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#team .card .card-img-top{
+    width: 100%;
+    height:30vw;
+    object-fit: contain;
+}
+#team .card{
+	height:100%;
+    border:none;
+    padding:20px;
+}
+#team .consultants .card .card-header{
+    text-align:center;
+}
+#team .consultants .card hr{
+    height: 1px;
+    background-color: rgb(252, 193, 151);
+}
+#about{
+    margin-top: 50px;
+}
+#about #story{
+    padding:80px;
+    text-align: center;
+}
+#about #story .heading{
+	padding-top:50px;
+	font-weight:400;
+    letter-spacing: 5px;
+}
+#about #story p{
+    padding: 30px 50px;
+    line-height: 1.6;
+    font-size: 1.2rem;
+}
+@media screen and (max-width: 1400px) {
+  #about #story p {
+    font-size: 1rem;
+    padding: 15px 30px;
+  }
+  #about #story{
+      padding:20px;
+  }
+}
+#about #story p span{
+    color: rgb(252, 193, 151);
+}
+#about #story hr{
+    background-color: rgb(252, 193, 151);
+    height:1px;
+}
+#about #story-pic img{
+    width:100%;
+}
+
+#contact-heading{
+    text-align: center;
+    padding:120px 0 50px 0;
+}
+#contact-heading hr{
+    height: 1px;
+    background-color: rgb(252, 193, 151);
+}
+#contact-heading h5{
+	font-weight:400;
+    letter-spacing: 5px;
+}
+#contact-us{
+    margin-bottom: 100px;
+}
+#contact-us #info .info-box{
+    text-align: center;	
+    background-color: rgb(244, 244, 244);
+    border-bottom: 3px solid rgb(252, 193, 151);
+}
+#contact-us #info{
+	margin-bottom:20px;
+}
+#contact-us #info #address{
+    padding: 20px 50px 20px 50px;
+	height:100%;
+}
+#contact-us #info #email{
+    padding:20px 50px 20px 50px;
+	height:100%;
+}
+#contact-us #info #phone{
+    padding:20px 50px 20px 50px;
+	height:100%;
+}
+#contact-us #info .info-box hr{
+    background-color: black;
+}
+#contact-us #info .info-box i{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#contact-us #info #email a{
+    color: rgb(252, 193, 151);
+}
+#contact-us #info .info-box p{
+    color: rgb(102, 101, 100);
+    letter-spacing: 1px;
+}
+#msg-form{
+    margin-bottom: 20px;
+}
+
+#msg-form #form-box button{
+    width: 100%;
+}
+
+#msg-form #form-box button:hover{
+    border-color: rgb(252, 193, 151);
+    background-color: white;
+	color:rgb(252, 193, 151);;
+}
+#insta-link{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#footer{
+    background-color: rgb(79, 79, 79);
+    text-align: center;
+    color: rgb(186, 186, 186);
+}
+#footer .fas{
+    padding:30px;
+}
+#footer .copyright{
+    padding:30px;
+}
+#footer .copyright a{
+    color: rgb(186, 186, 186);
+}
+#footer .footer-link{
+    padding:10px;
+    color: rgb(186, 186, 186);
+}

@@ -1,0 +1,27 @@
+body{
+    background: #2C3E50;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right,#2C3E50, #FD746C);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right,#2C3E50, #FD746C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.projects{
+    text-align: center;
+}
+#back{
+    color: white;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.main .heading{
+    color: white;
+    text-align: center;
+}
+.main .heading hr{
+    height: 1px;
+    background-color: white;
+}
+.carousel{
+    margin-top:20px;
+    margin-bottom:20px;
+    box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.2), 0 16px 40px 0 rgba(0, 0, 0, 0.19);
+    border: 2px solid whitesmoke;
+}

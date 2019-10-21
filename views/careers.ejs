@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0 fa-2x">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Join Adorn Abodes</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="/stylesheets/careers.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	</head>
+	<body>
+		<div class="animated infinite bounce slow">
+			<a href="/abodes"><i id="back" class="fas fa-arrow-alt-circle-left fa-2x"></i></a>
+		</div>
+		<div class="animated fadeInUp slow container main">
+			<div id="heading">
+				<h1 class="display-3">
+					Join Our Team
+				</h1>
+			</div>
+			<div id="cv-form" class="container">
+				<div id="upload-box">
+					<form method="POST" action="/upload"  enctype="multipart/form-data">
+						<div class="form-inline">
+							<div class="col">
+								<label class="cv-file-upload">
+									<input type="file" name="cv" accept=".doc,.docx,.pdf">
+									<i class="fas fa-mouse-pointer"></i>Select Your Resume
+								</label>
+							</div>
+							<div class="col">
+								<button type="submit" class="btn btn-outline-info btn-lg"><i class="fas fa-file-upload"></i>Upload Your Resume</button>
+							</div>
+						</div>
+					</form>
+				</div>
+				<form method="POST" action="/apply">
+					<div id="form-box">
+						<div class="form-group">
+							<div class="row">
+								<div class="col">
+									<input type="text" name="name" class="form-control" placeholder="First Name">
+								</div>
+								<div class="col">
+									<input type="text" name="lastName" class="form-control" placeholder="Last Name">
+								</div>
+							</div>
+						</div>
+						<div class="form-group">
+							<input type="email" name="email" class="form-control" placeholder="Email Address">
+						</div>
+						<div class="form-group">
+							<input type="text" name="phone" class="form-control" placeholder="Phone Number">
+						</div>
+						<div class="form-group">
+							<textarea type="text-area" name="detail" class="form-control" rows="3" placeholder="Describe your interests and field of expertise.."></textarea>
+						</div>
+						<button type="submit" class="btn btn-outline-info btn-lg">SEND REQUEST</button>
+					</div>
+				</form>
+			</div>
+		</div>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+	</body>
+</html>
