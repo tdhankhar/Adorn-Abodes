@@ -1,2 +1,2 @@
 # Adorn-Abodes
-Website for Architects and Interior Designers 
+Website for Architects and Interior Designers ( in-progress )
